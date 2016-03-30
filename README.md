@@ -1,0 +1,2 @@
+# CarrierWaveExample
+CarrierWaveを利用したファイルのアップロードを行うサンプルです。
