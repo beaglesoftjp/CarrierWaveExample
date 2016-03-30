@@ -107,3 +107,7 @@ Viewの`_form.html.erb`を以下の通り変更し、画像ファイルをアッ
 </p>
 ```
 
+# 動作のイメージ
+このように簡単にプロジェクトを作成してGemの設定を行ったわけですが、このようにファイル（今回は画像ファイル）をアップロードして表示できるようになりました。
+
+![carrier_wave_demo.gif (167.0 kB)](https://beaglesoft-esaio.s3-ap-northeast-1.amazonaws.com/uploads/production/attachments/1905/2016/03/30/5164/c377af74-948b-46b7-af09-d937b7ffc403.gif)
