@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Store name:</strong>
+  <%= @picture_store.store_name %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= image_tag @picture_store.picture.url %>
+</p>
+
+<%= link_to 'Edit', edit_picture_store_path(@picture_store) %> |
+<%= link_to 'Back', picture_stores_path %>
