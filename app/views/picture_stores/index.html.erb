@@ -15,7 +15,7 @@
     <% @picture_stores.each do |picture_store| %>
       <tr>
         <td><%= picture_store.store_name %></td>
-        <td><%= picture_store.picture %></td>
+        <td><%= picture_store.picture.current_path %></td>
         <td><%= link_to 'Show', picture_store %></td>
         <td><%= link_to 'Edit', edit_picture_store_path(picture_store) %></td>
         <td><%= link_to 'Destroy', picture_store, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -26,6 +26,8 @@ class PictureStoresController < ApplicationController
   def create
     @picture_store = PictureStore.new(picture_store_params)
 
+    @picture_store.year_month_day="#{DateTime.now.strftime('%Y%m%d')}"
+
     respond_to do |format|
       if @picture_store.save
         format.html { redirect_to @picture_store, notice: 'Picture store was successfully created.' }
